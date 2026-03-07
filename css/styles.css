@@ -326,7 +326,6 @@ span.logo-right-part {
     height: 100%;
     background-color: #fff; 
     opacity: 0;
-    overflow: auto;
     visibility: hidden;
     pointer-events: none;
     transform: translateX(-100%);
