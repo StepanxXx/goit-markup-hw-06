@@ -27,10 +27,10 @@
     menu: document.querySelector('[data-menu]'),
   };
 
-  refs_menu.openModalBtn?.addEventListener('click', toggleModal);
-  refs_menu.closeModalBtn?.addEventListener('click', toggleModal);
+  refs_menu.openModalBtn?.addEventListener('click', toggleMenu);
+  refs_menu.closeModalBtn?.addEventListener('click', toggleMenu);
 
-  function toggleModal() {
+  function toggleMenu() {
     // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
     refs_menu.menu.classList.toggle('is-open');
   }
